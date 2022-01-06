@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+/* font -family */
+/* font-family: 'Chakra Petch', sans-serif; */
+/* font-family: 'Cookie', cursive; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    background-color: aqua;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul.navbar {
+    padding: 0;
+}
+
+ul.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+ul.navbar li:hover a {
+    color: #fff;
+    background-color: #4169e1;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+
+main, 
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 68px;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+p {
+    margin: 16px 0;
+}
+
+
+
+#colors,
+#fonts,
+#text-container {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.color1 {
+    background-color: #ffa500;
+}
+
+.color2 {
+    background-color: #7fff00;
+}
+
+.color3 {
+    background-color: #00FFFF;
+}
+
+.color4 {
+    background-color: #4169e1;
+}
+
+.color5 {
+    background-color: #ff4500;
+}
+
+.font1,
+.font2,
+.font3 {
+    display: inline-block;
+    width: 30%;
+}
+
+.font1,
+.text-style1 {
+    font-family: 'Chakra Petch', sans-serif; 
+}
+
+.font2,
+.text-style2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.font3,
+.text-style3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-label {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-style1,
+.text-style2,
+.text-style3 {
+    margin: 20px 0;
+}
+
+.text-styles li {
+    margin: 10px 0;
+}
+
+.text-style1 h1 {
+    font-size: 32px;
+}
+
+.text-style2 h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-style3 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    text-align: center;
+    background-color: aqua;
+    padding: 25px 0;
+}
